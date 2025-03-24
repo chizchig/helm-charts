@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: shadowhub/node-app
+  tag: "latest"  # Updated by CI
+service:
+  type: ClusterIP
+  port: 80
